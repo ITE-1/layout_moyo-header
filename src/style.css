@@ -12,17 +12,6 @@ body {
   --color-links-hover: #00acdc;
 }
 
-ul,
-li,
-a {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-
-  color: #000;
-}
-
 .header {
   padding: 0 50px;
   display: flex;
@@ -36,9 +25,15 @@ a {
 
 .nav__list {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .nav__item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
   margin-left: 20px;
 }
 
@@ -47,6 +42,8 @@ a {
 }
 
 .nav__link {
+  color: #000;
+  text-decoration: none;
   position: relative;
   display: flex;
   align-items: center;
